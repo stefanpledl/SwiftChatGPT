@@ -36,7 +36,7 @@ public class ChatGPT: NSObject, URLSessionDataDelegate {
     let urlSessionConfig: URLSessionConfiguration
     var session: URLSession!
     public var key: String
-    var history: [Message] = []
+    public var history: [Message] = []
     let decoder = JSONDecoder()
     public var model = "gpt-3.5-turbo"
     
